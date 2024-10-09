@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <lightning:workspaceAPI aura:id="workspace" />
+    <lightning:button label="Open Subtab (Aura)" onclick="{!c.handleClick}" />
+    <lightning:button label="Open Subtab 2 (Aura)" onclick="{!c.handleClick2}" />
+    <lightning:button label="Open Subtab 3 (Aura)" onclick="{!c.handleClick3}" />
+
+</aura:component>	
